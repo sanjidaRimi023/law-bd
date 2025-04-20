@@ -1,0 +1,86 @@
+[
+  {
+    "Image": "https://i.ibb.co.com/TBkn2ky9/indian-businessman-with-his-white-car.jpg",
+    "Name": "Advocate Arif Hossain",
+    "Speciality": "Criminal Law",
+    "Experience": "10 years",
+    "LicenseNumber": "LAW-BD-4001"
+  },
+  {
+    "Image": "https://i.ibb.co.com/Kp2Md3ss/happy-businesswoman-holding-folder.jpg",
+    "Name": "Advocate Mahira Sultana",
+    "Speciality": "Family Law",
+    "Experience": "8 years",
+    "LicenseNumber": "LAW-BD-4002"
+  },
+  {
+    "Image": "https://i.ibb.co.com/3JcXMQt/law1.jpg",
+    "Name": "Barrister Tanvir Ahmed",
+    "Speciality": "Corporate Law",
+    "Experience": "14 years",
+    "LicenseNumber": "LAW-BD-4003"
+  },
+  {
+    "Image": "https://i.ibb.co.com/ycQkh5Bg/professional-woman-stylish-suit-office-with-tablet-device.jpg",
+    "Name": "Advocate Nafisa Karim",
+    "Speciality": "Civil Law",
+    "Experience": "6 years",
+    "LicenseNumber": "LAW-BD-4004"
+  },
+  {
+    "Image": "https://i.ibb.co.com/GfRTn9zh/law3.jpg",
+    "Name": "Advocate Nabila Jahan",
+    "Speciality": "Property Law",
+    "Experience": "9 years",
+    "LicenseNumber": "LAW-BD-4005"
+  },
+  {
+    "Image": "https://i.ibb.co.com/84jHfHYT/law2.jpg",
+    "Name": "Barrister Zubair Rahman",
+    "Speciality": "Tax Law",
+    "Experience": "11 years",
+    "LicenseNumber": "LAW-BD-4006"
+  },
+  {
+    "Image": "https://i.ibb.co.com/21mYPKkb/quader.jpg",
+    "Name": "Advocate Rini Akter",
+    "Speciality": "Labor Law",
+    "Experience": "7 years",
+    "LicenseNumber": "LAW-BD-4007"
+  },
+  {
+    "Image": "https://i.ibb.co.com/Z6NVzRmn/mrja.jpg",
+    "Name": "Advocate Kazi Imtiaz",
+    "Speciality": "Constitutional Law",
+    "Experience": "13 years",
+    "LicenseNumber": "LAW-BD-4008"
+  },
+  {
+    "Image": "https://i.ibb.co.com/GfRTn9zh/law3.jpg",
+    "Name": "Advocate Liyana Hossain",
+    "Speciality": "Immigration Law",
+    "Experience": "5 years",
+    "LicenseNumber": "LAW-BD-4009"
+  },
+  {
+    "Image": "https://i.ibb.co.com/qMLV1pKt/Zunaid.jpg",
+    "Name": "Barrister Shahriar Chowdhury",
+    "Speciality": "Cyber Law",
+    "Experience": "10 years",
+    "LicenseNumber": "LAW-BD-4010"
+  },
+  {
+    "Image": "https://i.ibb.co.com/600Vv8F1/young-successful-businessman-posing-with-crossed-arms.jpg",
+    "Name": "Advocate Tanvir Rahman",
+    "Speciality": "International Law",
+    "Experience": "12 years",
+    "LicenseNumber": "LAW-BD-4011"
+  },
+  {
+    "Image": "https://i.ibb.co.com/8LT8W7jN/portrait-confident-young-businessman-with-his-arms-crossed.jpg",
+    "Name": "Advocate Tahmid Hasan",
+    "Speciality": "Human Rights Law",
+    "Experience": "9 years",
+    "LicenseNumber": "LAW-BD-4012"
+  }
+]
