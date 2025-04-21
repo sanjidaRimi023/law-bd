@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router'
 import './App.css'
 
 function App() {
@@ -5,9 +6,7 @@ function App() {
 
   return (
     <>
-    <h1>this is app section</h1>
-    <button class="btn btn-primary">Primary</button>
-
+    
     </>
   )
 }
