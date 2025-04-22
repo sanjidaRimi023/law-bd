@@ -1,7 +1,11 @@
 import React from "react";
-
 import FooterImg from "../assets/nf.png";
-import { Link, NavLink } from "react-router";
+import { Link } from "react-router";
+
+import { AiOutlineFacebook } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaYoutubeSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -14,23 +18,42 @@ const Footer = () => {
         <div>
           <ul className="flex gap-10 text-lg text-white">
             <li>
-              <NavLink to="/home">Home</NavLink>
+              <Link to="/home">Home</Link>
             </li>
             <li>
-              <NavLink to="/booking">My Booking</NavLink>
+              <Link to="/booking">My Booking</Link>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
+              <Link to="/blog">Blog</Link>
             </li>
             <li>
-              <NavLink to="/errorpage">Contact</NavLink>
+              <Link to="/errorpage">Contact</Link>
             </li>
           </ul>
         </div>
         <hr className="border-t border-dashed border-gray-300 w-full" />
-
-        
-
+        <ul className="flex gap-4">
+          <li>
+            <Link className="text-white text-3xl">
+              <AiOutlineFacebook></AiOutlineFacebook>
+            </Link>
+          </li>
+          <li>
+            <Link className="text-white text-3xl">
+              <FaLinkedin></FaLinkedin>
+            </Link>
+          </li>
+          <li>
+            <Link className="text-white text-3xl">
+              <FaYoutubeSquare></FaYoutubeSquare>
+            </Link>
+          </li>
+          <li>
+            <Link className="text-white text-3xl">
+              <FaGithub></FaGithub>
+            </Link>
+          </li>
+        </ul>
       </footer>
     </div>
   );
