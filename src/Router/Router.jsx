@@ -3,7 +3,6 @@ import MainLayout from "../Layout/MainLayout";
 
 import Booking from '../Pages/Booking'
 import Blog from '../Pages/Blog'
-import ErrorPage from "../Pages/Errorpage"
 import Home from "../Pages/Home"
 import Errorpage from "../Pages/Errorpage";
 
@@ -11,12 +10,13 @@ const router = createBrowserRouter([
     {
       path: '/',
       Component: MainLayout,
-      errorElement: ErrorPage,
+      errorElement: <Errorpage></Errorpage>,
       children: [
         {
           index: true,
           path: '/',
-          element: <Home></Home>
+          element: <Home></Home>,
+          loader: () => fetch('profile.json')
         },
         {
           path: '/blog',
@@ -26,10 +26,6 @@ const router = createBrowserRouter([
           path : '/booking',
           element : <Booking></Booking>
         },
-        {
-          path : '/errorpage',
-          element : <Errorpage></Errorpage>
-        }
       ]
     }
   ])
