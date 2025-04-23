@@ -11,7 +11,7 @@ const LawyerCard = ({ profile }) => {
   } = profile;
 
   return (
-    <div className="bg-[#ffffff] border border-[#C4C4C4] rounded-xl shadow-md flex justify-between gap-10 space-y-3 p-5 items-center">
+    <div className="bg-[#ffffff] border border-[#C4C4C4] rounded-xl shadow-md lg:flex justify-between gap-10 space-y-3 p-5 items-center">
       <img
         className="w-[180px] h-[180px] rounded-xl object-cover"
         src={Image}

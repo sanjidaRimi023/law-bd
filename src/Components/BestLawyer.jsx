@@ -17,11 +17,11 @@ const BestLawyer = ({ profiles }) => {
   return (
     <div>
       <div className="flex flex-col items-center gap-4 my-10">
-        <h1 className="text-[#0F0F0F] text-5xl font-bold">Our Best Lawyers</h1>
-        <p className="text-[#0F0F0FCC] text-md text-center">
+        <h1 className="text-[#0F0F0F] lg:text-5xl text-2xl font-bold">Our Best Lawyers</h1>
+        <p className="text-[#0F0F0FCC] text-md lg:w-[800px] text-center">
           Meet our top-rated lawyers, trusted by hundreds for their expertise
           and commitment to justice. From corporate law to personal matters, our
-          best lawyers bring clarity <br /> and confidence to your case.
+          best lawyers bring clarity and confidence to your case.
           Recognized for excellence. Respected for results. Our finest legal
           minds at your service.
         </p>
