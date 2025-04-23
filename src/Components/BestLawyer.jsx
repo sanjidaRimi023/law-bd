@@ -1,5 +1,4 @@
 import React, { Suspense, useEffect, useState } from "react";
-// Lazy load LawyerCard component
 const LawyerCard = React.lazy(() => import("./LawyerCard"));
 import LawyerCardSkeleton from "./LawyerCardSkeleton";
 
@@ -36,13 +35,13 @@ const BestLawyer = ({ profiles }) => {
         ))}
       </div>
 
-      <div className="my-10">
+      <div className="my-10 flex justify-center items-center">
         <button
           onClick={() => setShowAll(!showAll)}
           className="relative px-6 py-3 font-medium text-white transition duration-300 bg-[#0EA106] rounded-4xl hover:bg-green-500 ease"
         >
           <span className="relative text-xl">
-            {showAll ? "Show Less" : "Show All"}
+            {showAll ? "Show Less Lawyer" : "Show All Lawyer"}
           </span>
         </button>
       </div>
