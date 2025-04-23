@@ -29,7 +29,7 @@ const LawyerCard = ({ profile }) => {
         <h1 className="text-3xl font-bold">{Name}</h1>
         <p className="text-2xl text-[#0F0F0F99]">{Speciality}</p>
         <p className="text-lg text-[#0F0F0FB3]">{LicenseNumber}</p>
-        <button className="btn btn-block text-[#176AE5] my-2 rounded-full text-lg bg-[#abc1e133]">View Details</button>
+        <button className="btn btn-block text-[#176AE5]  hover:bg-[#176AE5] hover:text-white my-2 rounded-full text-lg bg-[#abc1e133]">View Details</button>
       </div>
     </div>
   );

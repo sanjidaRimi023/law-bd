@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
         <ul className="hidden  md:flex gap-10 text-xl text-[#0F0F0FB3] ">
           <li>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
             <NavLink to="/booking">My Booking</NavLink>

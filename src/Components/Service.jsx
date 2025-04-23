@@ -1,9 +1,8 @@
-// লাইব্রেরি ইমপোর্ট
 import React from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
-import { motion } from 'framer-motion';
-
+// eslint-disable-next-line no-unused-vars
+import {motion} from 'framer-motion';
 
 import star from '../assets/star.png';
 import lawyer from '../assets/lawyer.png';
@@ -16,6 +15,7 @@ const ServiceCard = ({ img, end, label }) => {
         triggerOnce: false,
         threshold: 0.5
     });
+
 
     return (
         <motion.div
@@ -33,8 +33,6 @@ const ServiceCard = ({ img, end, label }) => {
         </motion.div>
     );
 };
-
-// মূল কম্পোনেন্ট আগের মতই থাকবে
 const Service = () => {
     return (
         <div className='flex flex-col my-10 justify-center items-center'>
