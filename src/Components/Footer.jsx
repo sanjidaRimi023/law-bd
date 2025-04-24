@@ -34,22 +34,22 @@ const Footer = () => {
         <hr className="border-t border-dashed border-gray-300 w-full" />
         <ul className="flex gap-4">
           <li>
-            <Link className="text-white text-3xl">
+            <Link to="https://www.facebook.com/profile.php?id=61554696036982" className="text-white text-3xl">
               <AiOutlineFacebook></AiOutlineFacebook>
             </Link>
           </li>
           <li>
-            <Link className="text-white text-3xl">
+            <Link to="https://www.linkedin.com/in/sanjida-akter-rimi-171086350/" className="text-white text-3xl">
               <FaLinkedin></FaLinkedin>
             </Link>
           </li>
           <li>
-            <Link className="text-white text-3xl">
+            <Link to="https://www.youtube.com/@SanjidaAkterRimi-r6i" className="text-white text-3xl">
               <FaYoutubeSquare></FaYoutubeSquare>
             </Link>
           </li>
           <li>
-            <Link className="text-white text-3xl">
+            <Link to="https://github.com/sanjidaRimi023" className="text-white text-3xl">
               <FaGithub></FaGithub>
             </Link>
           </li>

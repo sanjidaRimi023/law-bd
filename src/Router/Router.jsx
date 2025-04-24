@@ -31,7 +31,6 @@ const router = createBrowserRouter([
       {
         path: "/booking",
         element: <Booking />,
-        loader: () => fetch("/profile.json"),
         hydrateFallbackElement: (
           <div className="fixed inset-0 flex items-center justify-center">
             <span className="loading text-blue-600 loading-bars loading-xl"></span>
@@ -41,7 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/lawyerdetails/:id",
         element: <LawyerDetails />,
-        loader: () => fetch("/profile.json"),
+        loader: async () => {
+          const res = await fetch('/profile.json');
+          return res.json();
+        },
         hydrateFallbackElement: (
           <div className="fixed inset-0 flex items-center justify-center">
             <span className="loading text-blue-600 loading-bars loading-xl"></span>

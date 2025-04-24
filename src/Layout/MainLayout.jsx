@@ -1,6 +1,7 @@
 import { Outlet, useNavigation } from "react-router";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import { Toaster } from "sonner";
 
 const MainLayout = () => {
   const navigation = useNavigation();
@@ -17,12 +18,12 @@ const MainLayout = () => {
         <Navbar />
       </div>
       <hr className="border border-gray-300 w-full" />
-
       <div className="mx-auto px-4 md:px-12">
         <Outlet />
       </div>
 
       <Footer />
+      <Toaster richColors={true} />
     </>
   );
 };
