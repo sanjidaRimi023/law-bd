@@ -6,7 +6,9 @@
     "Speciality": "Criminal Law",
     "Experience": "10 years Experience",
     "LicenseNumber": "LAW-BD-4001",
-    "Available": "Available"
+    "Available": "Available",
+    "Fee": "৳5000",
+    "Availability": ["Sunday", "Tuesday", "Thursday"]
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "Speciality": "Family Law",
     "Experience": "8 years Experience",
     "LicenseNumber": "LAW-BD-4002",
-    "Available": "Available"
+    "Available": "Available",
+    "Fee": "৳4000",
+    "Availability": ["Monday", "Wednesday", "Saturday"]
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "Speciality": "Corporate Law",
     "Experience": "14 years Experience",
     "LicenseNumber": "LAW-BD-4003",
-    "Available": "Available"
+    "Available": "Available",
+    "Fee": "৳7000",
+    "Availability": ["Sunday", "Monday", "Thursday"]
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@
     "Speciality": "Civil Law",
     "Experience": "6 years Experience",
     "LicenseNumber": "LAW-BD-4004",
-    "Available": "Available"
+    "Available": "Available",
+    "Fee": "৳3500",
+    "Availability": ["Tuesday", "Friday"]
   },
   {
     "id": 5,
@@ -42,7 +50,9 @@
     "Speciality": "Property Law",
     "Experience": "9 years Experience",
     "LicenseNumber": "LAW-BD-4005",
-    "Available": "Available"
+    "Available": "Available",
+    "Fee": "৳4500",
+    "Availability": ["Monday", "Wednesday", "Saturday"]
   },
   {
     "id": 6,
@@ -51,7 +61,9 @@
     "Speciality": "Tax Law",
     "Experience": "11 years Experience",
     "LicenseNumber": "LAW-BD-4006",
-    "Available": "Available"
+    "Available": "Available",
+    "Fee": "৳6000",
+    "Availability": ["Sunday", "Tuesday", "Friday"]
   },
   {
     "id": 8,
@@ -60,7 +72,9 @@
     "Speciality": "Constitutional Law",
     "Experience": "13 years Experience",
     "LicenseNumber": "LAW-BD-4008",
-    "Available": "Available"
+    "Available": "Available",
+    "Fee": "৳6500",
+    "Availability": ["Monday", "Thursday"]
   },
   {
     "id": 10,
@@ -69,7 +83,9 @@
     "Speciality": "Cyber Law",
     "Experience": "10 years Experience",
     "LicenseNumber": "LAW-BD-4010",
-    "Available": "Available"
+    "Available": "Available",
+    "Fee": "৳5500",
+    "Availability": ["Wednesday", "Saturday"]
   },
   {
     "id": 12,
@@ -78,7 +94,9 @@
     "Speciality": "Human Rights Law",
     "Experience": "9 years Experience",
     "LicenseNumber": "LAW-BD-4012",
-    "Available":"Not Available"
+    "Available": "Not Available",
+    "Fee": "৳4800",
+    "Availability": ["Sunday", "Tuesday"]
   },
   {
     "id": 7,
@@ -87,7 +105,9 @@
     "Speciality": "Labor Law",
     "Experience": "7 years Experience",
     "LicenseNumber": "LAW-BD-4007",
-    "Available": "Not Available"
+    "Available": "Not Available",
+    "Fee": "৳4200",
+    "Availability": ["Monday", "Thursday"]
   },
   {
     "id": 9,
@@ -96,7 +116,9 @@
     "Speciality": "Immigration Law",
     "Experience": "5 years Experience",
     "LicenseNumber": "LAW-BD-4009",
-    "Available": "Not Available"
+    "Available": "Not Available",
+    "Fee": "৳4000",
+    "Availability": ["Tuesday", "Friday"]
   },
   {
     "id": 11,
@@ -105,6 +127,8 @@
     "Speciality": "International Law",
     "Experience": "12 years Experience",
     "LicenseNumber": "LAW-BD-4011",
-    "Available": "Not Available"
+    "Available": "Not Available",
+    "Fee": "৳6200",
+    "Availability": ["Sunday", "Wednesday"]
   }
 ]

@@ -37,7 +37,10 @@ const BestLawyer = ({ profiles }) => {
 
       <div className="my-10 flex justify-center items-center">
         <button
-          onClick={() => setShowAll(!showAll)}
+          onClick={() =>{
+            setShowAll(!showAll)
+            if(showAll) window.scrollTo(0, 0)
+          }}
           className="relative px-6 py-3 font-medium text-white transition duration-300 bg-[#0EA106] rounded-4xl hover:bg-green-500 ease"
         >
           <span className="relative text-xl">
