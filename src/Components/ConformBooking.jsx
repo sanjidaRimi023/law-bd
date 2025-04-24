@@ -8,6 +8,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
+  ResponsiveContainer,
 } from "recharts";
 
 const colors = ['#0088FE', '#FFBB28', '#00C49F', '#FF8042', 'red', 'orange'];
@@ -46,8 +47,9 @@ const ConformBooking = ({ bookings, setRefetch }) => {
 
   return (
     <div>
-      <div className="mx-auto my-10 rounded-xl lg:px-0 lg:p-10 bg-[#FFFFFF] lg:w-[1480px]">
-        <BarChart
+      <div className="container mx-auto my-10 rounded-xl lg:px-0 lg:p-10 bg-[#FFFFFF] lg:w-[1480px]">
+       <ResponsiveContainer width="100%" height={300}>
+       <BarChart
           width={1280}
           height={300}
           data={data}
@@ -67,6 +69,7 @@ const ConformBooking = ({ bookings, setRefetch }) => {
             ))}
           </Bar>
         </BarChart>
+       </ResponsiveContainer>
       </div>
 
       <div>
@@ -80,7 +83,7 @@ const ConformBooking = ({ bookings, setRefetch }) => {
       </div>
 
       {bookings.map((booking, idx) => (
-        <div key={idx} className="p-8 bg-white lg:mt-10 m-4 rounded-xl">
+        <div key={idx} className="p-8 bg-white lg:mt-10 m-4 border border-gray-300 rounded-xl">
           <h1 className="text-2xl font-bold mb-5 text-center lg:text-start">
             {booking.Name}
           </h1>
@@ -90,6 +93,7 @@ const ConformBooking = ({ bookings, setRefetch }) => {
               Appointment fee: {booking.Fee} Taka + VAT
             </h2>
           </div>
+          <hr className="border-t-2 border-dashed border-gray-300 w-full mt-4" />
           <button
             onClick={() => cancelBooking(booking.LicenseNumber)}
             className="btn btn-block rounded-[19px] text-red-600 border border-red-600 mt-10"

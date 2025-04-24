@@ -6,7 +6,7 @@
     "Speciality": "Criminal Law",
     "Experience": "10 years Experience",
     "LicenseNumber": "LAW-BD-4001",
-    "Available": "Available",
+    "Available": false,
     "Fee": "5000",
     "Availability": ["Sunday", "Tuesday", "Thursday"]
   },
@@ -17,7 +17,7 @@
     "Speciality": "Family Law",
     "Experience": "8 years Experience",
     "LicenseNumber": "LAW-BD-4002",
-    "Available": "Available",
+    "Available": true,
     "Fee": "4000",
     "Availability": ["Monday", "Wednesday", "Saturday"]
   },
@@ -28,7 +28,7 @@
     "Speciality": "Corporate Law",
     "Experience": "14 years Experience",
     "LicenseNumber": "LAW-BD-4003",
-    "Available": "Available",
+    "Available": true,
     "Fee": "7000",
     "Availability": ["Sunday", "Monday", "Thursday"]
   },
@@ -39,7 +39,7 @@
     "Speciality": "Civil Law",
     "Experience": "6 years Experience",
     "LicenseNumber": "LAW-BD-4004",
-    "Available": "Available",
+    "Available": true,
     "Fee": "3500",
     "Availability": ["Tuesday", "Friday"]
   },
@@ -50,7 +50,7 @@
     "Speciality": "Property Law",
     "Experience": "9 years Experience",
     "LicenseNumber": "LAW-BD-4005",
-    "Available": "Available",
+    "Available": true,
     "Fee": "4500",
     "Availability": ["Monday", "Wednesday", "Saturday"]
   },
@@ -61,7 +61,7 @@
     "Speciality": "Tax Law",
     "Experience": "11 years Experience",
     "LicenseNumber": "LAW-BD-4006",
-    "Available": "Available",
+    "Available": true,
     "Fee": "6000",
     "Availability": ["Sunday", "Tuesday", "Friday"]
   },
@@ -72,7 +72,7 @@
     "Speciality": "Constitutional Law",
     "Experience": "13 years Experience",
     "LicenseNumber": "LAW-BD-4008",
-    "Available": "Available",
+    "Available": true,
     "Fee": "6500",
     "Availability": ["Monday", "Thursday"]
   },
@@ -83,7 +83,7 @@
     "Speciality": "Cyber Law",
     "Experience": "10 years Experience",
     "LicenseNumber": "LAW-BD-4010",
-    "Available": "Available",
+    "Available": true,
     "Fee": "5500",
     "Availability": ["Wednesday", "Saturday"]
   },
@@ -94,7 +94,7 @@
     "Speciality": "Human Rights Law",
     "Experience": "9 years Experience",
     "LicenseNumber": "LAW-BD-4012",
-    "Available": "Not Available",
+    "Available": false,
     "Fee": "4800",
     "Availability": ["Sunday", "Tuesday"]
   },
@@ -105,7 +105,7 @@
     "Speciality": "Labor Law",
     "Experience": "7 years Experience",
     "LicenseNumber": "LAW-BD-4007",
-    "Available": "Not Available",
+    "Available": false,
     "Fee": "4200",
     "Availability": ["Monday", "Thursday"]
   },
@@ -116,7 +116,7 @@
     "Speciality": "Immigration Law",
     "Experience": "5 years Experience",
     "LicenseNumber": "LAW-BD-4009",
-    "Available": "Not Available",
+    "Available": false,
     "Fee": "4000",
     "Availability": ["Tuesday", "Friday"]
   },
@@ -127,7 +127,7 @@
     "Speciality": "International Law",
     "Experience": "12 years Experience",
     "LicenseNumber": "LAW-BD-4011",
-    "Available": "Not Available",
+    "Available": false,
     "Fee": "6200",
     "Availability": ["Sunday", "Wednesday"]
   }

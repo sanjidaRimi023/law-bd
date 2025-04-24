@@ -23,7 +23,7 @@ const LawyerCard = ({ profile }) => {
       <div className="flex-1">
         <div className="flex gap-3">
           <span className="bg-[#09982F1A] text-[#09982F] text-sm font-medium p-2 rounded-full">
-            {Available}
+          {Available? <p>Available</p> : <p>Not Available</p>}
           </span>
           <span className="bg-[#176AE51A] text-[#176AE5] text-sm font-medium p-2 rounded-full">
             {Experience}

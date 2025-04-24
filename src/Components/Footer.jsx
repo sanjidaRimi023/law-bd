@@ -16,7 +16,7 @@ const Footer = () => {
           <h2 className="text-3xl font-bold">Law.BD</h2>
         </div>
         <div>
-          <ul className="flex gap-10 text-lg text-white">
+          <ul className="lg:flex gap-10 text-lg text-white">
             <li>
               <Link to="/" className="hover:text-green-500">Home</Link>
             </li>

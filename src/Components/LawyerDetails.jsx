@@ -33,6 +33,7 @@ const LawyerDetails = () => {
     Fee,
     Availability,
   } = lawyer;
+
 console.log(bookings);
   const handleBooking = () => {
     if (bookings !== null && bookings.length > 0) {
@@ -52,7 +53,7 @@ console.log(bookings);
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 my-10">
-      {/* Lawyer's Profile */}
+   
       <div className="border border-gray-200 rounded-2xl text-center bg-[#0F0F0F26] p-6 sm:p-10 lg:p-20">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
           Lawyer's Profile Details
@@ -64,7 +65,7 @@ console.log(bookings);
         </p>
       </div>
 
-      {/* Lawyer Details */}
+     
       <div className="border border-gray-200 p-6 sm:p-10 lg:p-16 mt-10 rounded-2xl flex flex-col lg:flex-row gap-10 items-center lg:items-start">
         <div className="flex-shrink-0">
           <img
@@ -93,7 +94,7 @@ console.log(bookings);
             <span className="font-semibold text-green-600">{Fee}</span>
           </p>
 
-          {/* Available Days */}
+         
           <div className="text-base mt-4">
             <p className="mb-2 font-medium">Available Days:</p>
             <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
@@ -110,14 +111,13 @@ console.log(bookings);
         </div>
       </div>
 
-      {/* Booking Button */}
       <div className="border border-gray-200 p-6 sm:p-10 lg:p-16 mt-10 rounded-2xl">
         <h1 className="text-2xl font-bold text-center">Book an Appointment</h1>
         <hr className="border-t-2 border-dashed border-gray-300 w-full my-2" />
         <div className="flex justify-between items-center my-4">
           <span className="text-xl font-semibold">Availability</span>
           <span className="border text-[#09982F] font-semibold bg-[#09982F33] rounded-full px-3 py-2">
-            {Available}
+            {Available? <p>Available</p> : <p>Not Available</p>}
           </span>
         </div>
         <hr className="border-t-2 border-dashed border-gray-300 w-full my-2" />
@@ -129,6 +129,7 @@ console.log(bookings);
         </div>
         <button
           onClick={handleBooking}
+          disabled={!Available}
           className="btn btn-block bg-[#0EA106] mt-8 rounded-full text-white font-bold"
         >
           Book Appointment Now
