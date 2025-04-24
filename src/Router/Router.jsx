@@ -5,7 +5,7 @@ import Booking from "../Pages/Booking";
 import Blog from "../Pages/Blog";
 import Home from "../Pages/Home";
 import Errorpage from "../Pages/Errorpage";
-import LawyerDetails from "../Pages/LawyerDetails";
+import LawyerDetails from "../Components/LawyerDetails";
 
 const router = createBrowserRouter([
   {

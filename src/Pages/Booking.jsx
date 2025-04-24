@@ -1,25 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
+import ConformBooking from "../Components/ConformBooking";
 
 const Booking = () => {
+  const [bookings, setBookings] = useState([]);
+  const [refetch, setRefetch] = useState(false);
+
+  useEffect(() => {
+    const data = localStorage.getItem("bookings");
+    setBookings(data ? JSON.parse(data) : []);
+    setRefetch(false);
+  }, [refetch]);
+
   return (
     <div>
-      <div className="text-center my-[30px] py-18">
-        <h1 className="text-[#0F0F0F] lg:text-5xl text-2xl font-bold">
-          You have not Booked any appointment yet
-        </h1>
-        <p className="text-[#0F0F0FCC] text-md my-10 text-center">
-          Our platfrom connect you with varified, experienced. lawyers across
-          various speciality _ all at ypur convenience.
-        </p>
-        <Link
-          className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300"
-          to="/"
-        >
-          Book An Appointment
-        </Link>
-      </div>
-      
+      {!bookings?.length ? (
+        <div className="text-center my-20 bg-[#FFFFFF] lg:mx-0 mx-4 px-2 py-10 lg:my-20 lg:p-20 rounded-xl">
+          <h1 className="text-2xl font-bold my-5">
+            You have not booked any Appointment yet
+          </h1>
+          <p>
+            Our platform connects you with verified , experienced doctors across
+            various specialties-all at your convenience.
+          </p>
+          <button className="btn btn-primary my-5">
+            <Link to={"/"}>Book An Appointment</Link>
+          </button>
+        </div>
+      ) : (
+        <ConformBooking setRefetch={setRefetch} bookings={bookings} />
+      )}
     </div>
   );
 };

@@ -4,17 +4,17 @@ import { FaRegRegistered } from "react-icons/fa";
 import { BsInfoSquare } from "react-icons/bs";
 import { toast } from "sonner";
 
-
 const LawyerDetails = () => {
   const lawyers = useLoaderData();
   const { id } = useParams();
   const navigate = useNavigate();
 
   const [bookings, setBookings] = useState([]);
- console.log(bookings);
+  
+
   useEffect(() => {
-    const saveBooking = localStorage.getItem('bookings')
-    setBookings(JSON.parse(saveBooking))
+    const saveBooking = localStorage.getItem("bookings");
+    setBookings(saveBooking ? JSON.parse(saveBooking) : []);
   }, []);
 
   const lawyer = lawyers?.find((l) => l.id === parseInt(id));
@@ -33,30 +33,26 @@ const LawyerDetails = () => {
     Fee,
     Availability,
   } = lawyer;
- console.log(bookings);
+console.log(bookings);
   const handleBooking = () => {
-    if(bookings !== null && bookings.length > 0) {
-      
-      const alrdyBook = bookings?.find(b=> b.id == id)
-      if(alrdyBook){
-        toast.error('already booked')
-       
-        return
+    if (bookings !== null && bookings.length > 0) {
+      const alrdyBook = bookings.find((b) => b.id == id);
+      console.log(alrdyBook);
+      if (alrdyBook) {
+        toast.error("Already booked");
+        return;
       }
-    
-      localStorage.setItem("bookings", JSON.stringify([...bookings, lawyer]))
-      toast.success('booking done')
-   
+      localStorage.setItem("bookings", JSON.stringify([...bookings, lawyer]));
+      toast.success("Booking done");
+    } else {
+      localStorage.setItem("bookings", JSON.stringify([lawyer]));
     }
-    else{
-      localStorage.setItem("bookings", JSON.stringify([lawyer]))
-    }
-   
-    navigate('/booking')
+    navigate("/booking");
   };
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 my-10">
+      {/* Lawyer's Profile */}
       <div className="border border-gray-200 rounded-2xl text-center bg-[#0F0F0F26] p-6 sm:p-10 lg:p-20">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
           Lawyer's Profile Details
@@ -68,6 +64,7 @@ const LawyerDetails = () => {
         </p>
       </div>
 
+      {/* Lawyer Details */}
       <div className="border border-gray-200 p-6 sm:p-10 lg:p-16 mt-10 rounded-2xl flex flex-col lg:flex-row gap-10 items-center lg:items-start">
         <div className="flex-shrink-0">
           <img
@@ -96,6 +93,7 @@ const LawyerDetails = () => {
             <span className="font-semibold text-green-600">{Fee}</span>
           </p>
 
+          {/* Available Days */}
           <div className="text-base mt-4">
             <p className="mb-2 font-medium">Available Days:</p>
             <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
@@ -112,6 +110,7 @@ const LawyerDetails = () => {
         </div>
       </div>
 
+      {/* Booking Button */}
       <div className="border border-gray-200 p-6 sm:p-10 lg:p-16 mt-10 rounded-2xl">
         <h1 className="text-2xl font-bold text-center">Book an Appointment</h1>
         <hr className="border-t-2 border-dashed border-gray-300 w-full my-2" />

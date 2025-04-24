@@ -7,7 +7,7 @@
     "Experience": "10 years Experience",
     "LicenseNumber": "LAW-BD-4001",
     "Available": "Available",
-    "Fee": "৳5000",
+    "Fee": "5000",
     "Availability": ["Sunday", "Tuesday", "Thursday"]
   },
   {
@@ -18,7 +18,7 @@
     "Experience": "8 years Experience",
     "LicenseNumber": "LAW-BD-4002",
     "Available": "Available",
-    "Fee": "৳4000",
+    "Fee": "4000",
     "Availability": ["Monday", "Wednesday", "Saturday"]
   },
   {
@@ -29,7 +29,7 @@
     "Experience": "14 years Experience",
     "LicenseNumber": "LAW-BD-4003",
     "Available": "Available",
-    "Fee": "৳7000",
+    "Fee": "7000",
     "Availability": ["Sunday", "Monday", "Thursday"]
   },
   {
@@ -40,7 +40,7 @@
     "Experience": "6 years Experience",
     "LicenseNumber": "LAW-BD-4004",
     "Available": "Available",
-    "Fee": "৳3500",
+    "Fee": "3500",
     "Availability": ["Tuesday", "Friday"]
   },
   {
@@ -51,7 +51,7 @@
     "Experience": "9 years Experience",
     "LicenseNumber": "LAW-BD-4005",
     "Available": "Available",
-    "Fee": "৳4500",
+    "Fee": "4500",
     "Availability": ["Monday", "Wednesday", "Saturday"]
   },
   {
@@ -62,7 +62,7 @@
     "Experience": "11 years Experience",
     "LicenseNumber": "LAW-BD-4006",
     "Available": "Available",
-    "Fee": "৳6000",
+    "Fee": "6000",
     "Availability": ["Sunday", "Tuesday", "Friday"]
   },
   {
@@ -73,7 +73,7 @@
     "Experience": "13 years Experience",
     "LicenseNumber": "LAW-BD-4008",
     "Available": "Available",
-    "Fee": "৳6500",
+    "Fee": "6500",
     "Availability": ["Monday", "Thursday"]
   },
   {
@@ -84,7 +84,7 @@
     "Experience": "10 years Experience",
     "LicenseNumber": "LAW-BD-4010",
     "Available": "Available",
-    "Fee": "৳5500",
+    "Fee": "5500",
     "Availability": ["Wednesday", "Saturday"]
   },
   {
@@ -95,7 +95,7 @@
     "Experience": "9 years Experience",
     "LicenseNumber": "LAW-BD-4012",
     "Available": "Not Available",
-    "Fee": "৳4800",
+    "Fee": "4800",
     "Availability": ["Sunday", "Tuesday"]
   },
   {
@@ -106,7 +106,7 @@
     "Experience": "7 years Experience",
     "LicenseNumber": "LAW-BD-4007",
     "Available": "Not Available",
-    "Fee": "৳4200",
+    "Fee": "4200",
     "Availability": ["Monday", "Thursday"]
   },
   {
@@ -117,7 +117,7 @@
     "Experience": "5 years Experience",
     "LicenseNumber": "LAW-BD-4009",
     "Available": "Not Available",
-    "Fee": "৳4000",
+    "Fee": "4000",
     "Availability": ["Tuesday", "Friday"]
   },
   {
@@ -128,7 +128,7 @@
     "Experience": "12 years Experience",
     "LicenseNumber": "LAW-BD-4011",
     "Available": "Not Available",
-    "Fee": "৳6200",
+    "Fee": "6200",
     "Availability": ["Sunday", "Wednesday"]
   }
 ]
