@@ -18,16 +18,16 @@ const Footer = () => {
         <div>
           <ul className="flex gap-10 text-lg text-white">
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/" className="hover:text-green-500">Home</Link>
             </li>
             <li>
-              <Link to="/booking">My Booking</Link>
+              <Link to="/booking" className="hover:text-green-500">My Booking</Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/blog" className="hover:text-green-500">Blog</Link>
             </li>
             <li>
-              <Link to="/errorpage">Contact</Link>
+              <Link to="/errorpage" className="hover:text-green-500">Contact</Link>
             </li>
           </ul>
         </div>
